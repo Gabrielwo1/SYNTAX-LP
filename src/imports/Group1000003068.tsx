@@ -1,6 +1,6 @@
-import imgPrancheta23 from "figma:asset/be2c439f1fe52087c8979f9d310dc4f8ad3d37d5.png";
-import imgXTrade24 from "figma:asset/fa7e0ff24b5fe4729d0e9280130a6335c3697d6d.png";
-import imgXTrade221 from "figma:asset/84e94740cbedbbcf258246796618d24653a9259f.png";
+import imgPrancheta23 from "@/assets/be2c439f1fe52087c8979f9d310dc4f8ad3d37d5.png";
+import imgXTrade24 from "@/assets/fa7e0ff24b5fe4729d0e9280130a6335c3697d6d.png";
+import imgXTrade221 from "@/assets/84e94740cbedbbcf258246796618d24653a9259f.png";
 
 function Frame() {
   return (

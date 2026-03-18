@@ -1,11 +1,11 @@
-import imgImage1015 from "figma:asset/12c785e5e3f15a9c212ff7639ae63d8ce45a25b5.png";
-import imgFrame14372537021 from "figma:asset/00302cbbb33bb82018f53eef6893fc592b3e3d9f.png";
-import imgPerfilResponsavelDaQualidade1 from "figma:asset/c471977be710cf621be0cec6a96a6185ebb08d11.png";
-import imgDashboardMarcaPropria1 from "figma:asset/bf8565036ff2321666371d969396ae6897d3234f.png";
-import img34TelaDeDesenvolvimentoFluxoCompletoMarcaPropriaPgc1 from "figma:asset/6d01f0a71aeb7629b29ca7deb05745e0ae5475df.png";
-import imgXTrade1 from "figma:asset/fa7e0ff24b5fe4729d0e9280130a6335c3697d6d.png";
-import imgPrancheta23 from "figma:asset/be2c439f1fe52087c8979f9d310dc4f8ad3d37d5.png";
-import imgXTrade221 from "figma:asset/84e94740cbedbbcf258246796618d24653a9259f.png";
+import imgImage1015 from "@/assets/12c785e5e3f15a9c212ff7639ae63d8ce45a25b5.png";
+import imgFrame14372537021 from "@/assets/00302cbbb33bb82018f53eef6893fc592b3e3d9f.png";
+import imgPerfilResponsavelDaQualidade1 from "@/assets/c471977be710cf621be0cec6a96a6185ebb08d11.png";
+import imgDashboardMarcaPropria1 from "@/assets/bf8565036ff2321666371d969396ae6897d3234f.png";
+import img34TelaDeDesenvolvimentoFluxoCompletoMarcaPropriaPgc1 from "@/assets/6d01f0a71aeb7629b29ca7deb05745e0ae5475df.png";
+import imgXTrade1 from "@/assets/fa7e0ff24b5fe4729d0e9280130a6335c3697d6d.png";
+import imgPrancheta23 from "@/assets/be2c439f1fe52087c8979f9d310dc4f8ad3d37d5.png";
+import imgXTrade221 from "@/assets/84e94740cbedbbcf258246796618d24653a9259f.png";
 
 function Frame() {
   return (

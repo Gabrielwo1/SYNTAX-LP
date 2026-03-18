@@ -1,16 +1,16 @@
 import svgPaths from "./svg-foe08v7ud5";
-import imgImage101 from "figma:asset/5292e90580d28fffdb5f483002d71737cde8c8a2.png";
-import imgAddUserMale from "figma:asset/d4513b6aa5a3659f29a57ddc05cc669dc03bcc13.png";
-import imgImage1015 from "figma:asset/12c785e5e3f15a9c212ff7639ae63d8ce45a25b5.png";
-import imgImage181 from "figma:asset/450125da60a33615a20402e53d52758c7abcd905.png";
-import imgImage182 from "figma:asset/2d3a5c05b274299b0f9fc04fdeb90f8927168818.png";
-import imgImage1016 from "figma:asset/f996b542a9baf54a00c5dcdc7969e556ae14b319.png";
-import imgImage74 from "figma:asset/679f6e501517f7679adbeba31fb9e0db52f86270.png";
-import imgImage69 from "figma:asset/5af881d9cbb183ec03d7f64d90d46019a2a102fc.png";
-import imgImage72 from "figma:asset/b63f6823655e27330122168dda5734df8a3735a5.png";
-import imgPencil from "figma:asset/ca72766c9c88a58a21caf9973a375393d1e41fcf.png";
-import imgInfo from "figma:asset/d42d5a9026d9ae3f36b7b3c6b3695e208251cd96.png";
-import imgMacStudio from "figma:asset/a3dcb59b1fb67c7cd154943ef2400b59f2e91325.png";
+import imgImage101 from "@/assets/5292e90580d28fffdb5f483002d71737cde8c8a2.png";
+import imgAddUserMale from "@/assets/d4513b6aa5a3659f29a57ddc05cc669dc03bcc13.png";
+import imgImage1015 from "@/assets/12c785e5e3f15a9c212ff7639ae63d8ce45a25b5.png";
+import imgImage181 from "@/assets/450125da60a33615a20402e53d52758c7abcd905.png";
+import imgImage182 from "@/assets/2d3a5c05b274299b0f9fc04fdeb90f8927168818.png";
+import imgImage1016 from "@/assets/f996b542a9baf54a00c5dcdc7969e556ae14b319.png";
+import imgImage74 from "@/assets/679f6e501517f7679adbeba31fb9e0db52f86270.png";
+import imgImage69 from "@/assets/5af881d9cbb183ec03d7f64d90d46019a2a102fc.png";
+import imgImage72 from "@/assets/b63f6823655e27330122168dda5734df8a3735a5.png";
+import imgPencil from "@/assets/ca72766c9c88a58a21caf9973a375393d1e41fcf.png";
+import imgInfo from "@/assets/d42d5a9026d9ae3f36b7b3c6b3695e208251cd96.png";
+import imgMacStudio from "@/assets/a3dcb59b1fb67c7cd154943ef2400b59f2e91325.png";
 
 function Frame34() {
   return (

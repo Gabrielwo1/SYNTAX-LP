@@ -1,6 +1,6 @@
-import imgFkAdvogadosPng1 from "figma:asset/f684c88f613e495a4d01fa8cd7085539be06fa1b.png";
-import imgFk2 from "figma:asset/cb3f3e305ce5938d2d97ae6c3686fb83db57af0d.png";
-import imgFk11 from "figma:asset/a6dfac1bec03657669a4ec1cc8d18f7854580f54.png";
+import imgFkAdvogadosPng1 from "@/assets/f684c88f613e495a4d01fa8cd7085539be06fa1b.png";
+import imgFk2 from "@/assets/cb3f3e305ce5938d2d97ae6c3686fb83db57af0d.png";
+import imgFk11 from "@/assets/a6dfac1bec03657669a4ec1cc8d18f7854580f54.png";
 
 function Frame() {
   return (

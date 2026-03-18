@@ -1,9 +1,9 @@
 import svgPaths from "./svg-tsmdiujhre";
-import imgImage1015 from "figma:asset/12c785e5e3f15a9c212ff7639ae63d8ce45a25b5.png";
-import imgImage181 from "figma:asset/450125da60a33615a20402e53d52758c7abcd905.png";
-import imgImage182 from "figma:asset/2d3a5c05b274299b0f9fc04fdeb90f8927168818.png";
-import imgImage101 from "figma:asset/5292e90580d28fffdb5f483002d71737cde8c8a2.png";
-import imgAddUserMale from "figma:asset/d4513b6aa5a3659f29a57ddc05cc669dc03bcc13.png";
+import imgImage1015 from "@/assets/12c785e5e3f15a9c212ff7639ae63d8ce45a25b5.png";
+import imgImage181 from "@/assets/450125da60a33615a20402e53d52758c7abcd905.png";
+import imgImage182 from "@/assets/2d3a5c05b274299b0f9fc04fdeb90f8927168818.png";
+import imgImage101 from "@/assets/5292e90580d28fffdb5f483002d71737cde8c8a2.png";
+import imgAddUserMale from "@/assets/d4513b6aa5a3659f29a57ddc05cc669dc03bcc13.png";
 
 function Frame872() {
   return (

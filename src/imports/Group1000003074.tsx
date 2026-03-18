@@ -1,5 +1,5 @@
-import imgMockupPleno1 from "figma:asset/5d05d88f3569fd2e53fd01a0f39dad226f96580b.png";
-import imgPleno3 from "figma:asset/740aa747a05a887ca5af6975d63a0b49c57e82c8.png";
+import imgMockupPleno1 from "@/assets/5d05d88f3569fd2e53fd01a0f39dad226f96580b.png";
+import imgPleno3 from "@/assets/740aa747a05a887ca5af6975d63a0b49c57e82c8.png";
 
 export default function Group1000003074() {
   return (

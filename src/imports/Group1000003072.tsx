@@ -1,6 +1,6 @@
-import imgSemFundo2Cores3 from "figma:asset/baaf39fa0971b49293e17a95216f5893c53b917c.png";
-import imgSasa2 from "figma:asset/7dc47d66d53f980f6f1c40bd17786420b3e94a96.png";
-import imgHome2 from "figma:asset/2282149517060b183f3501395d3636358f009854.png";
+import imgSemFundo2Cores3 from "@/assets/baaf39fa0971b49293e17a95216f5893c53b917c.png";
+import imgSasa2 from "@/assets/7dc47d66d53f980f6f1c40bd17786420b3e94a96.png";
+import imgHome2 from "@/assets/2282149517060b183f3501395d3636358f009854.png";
 
 function Frame() {
   return (

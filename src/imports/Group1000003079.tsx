@@ -1,5 +1,5 @@
-import imgLogoFundoEscuro from "figma:asset/36d0374d35daae4b332d990dc624bd7f3d80c276.png";
-import imgLandingPage5 from "figma:asset/91d3acbc149747c51cd4188207a78e657b059d6d.png";
+import imgLogoFundoEscuro from "@/assets/36d0374d35daae4b332d990dc624bd7f3d80c276.png";
+import imgLandingPage5 from "@/assets/91d3acbc149747c51cd4188207a78e657b059d6d.png";
 
 function Frame() {
   return (

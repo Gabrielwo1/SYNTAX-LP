@@ -1,7 +1,7 @@
-import imgImage11 from "figma:asset/6206666ded2cd2e837bf6a846e7f20adba445400.png";
-import imgPrancheta23 from "figma:asset/be2c439f1fe52087c8979f9d310dc4f8ad3d37d5.png";
-import imgDesktop4833 from "figma:asset/a8afaee2f32908376814c1843ddb7c02f17f02a7.png";
-import imgDesktop484 from "figma:asset/46045ce2c33a66973805c5c367a6a8ae2600620b.png";
+import imgImage11 from "@/assets/6206666ded2cd2e837bf6a846e7f20adba445400.png";
+import imgPrancheta23 from "@/assets/be2c439f1fe52087c8979f9d310dc4f8ad3d37d5.png";
+import imgDesktop4833 from "@/assets/a8afaee2f32908376814c1843ddb7c02f17f02a7.png";
+import imgDesktop484 from "@/assets/46045ce2c33a66973805c5c367a6a8ae2600620b.png";
 
 function Frame() {
   return (

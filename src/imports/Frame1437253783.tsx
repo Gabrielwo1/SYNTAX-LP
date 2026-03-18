@@ -1,4 +1,4 @@
-import imgFreepikReateAModernFuturisticLogoForAUxuiDesignA417041 from "figma:asset/315d8cb9df218a4d108c1796691e847942e27f6b.png";
+import imgFreepikReateAModernFuturisticLogoForAUxuiDesignA417041 from "@/assets/315d8cb9df218a4d108c1796691e847942e27f6b.png";
 
 export default function Frame() {
   return (

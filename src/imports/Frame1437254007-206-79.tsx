@@ -1,16 +1,16 @@
 import svgPaths from "./svg-9borzx1q8j";
-import imgImg53712 from "figma:asset/8fd1e4c441dfea9513380405b80f9c5d129fd5a1.png";
-import imgDonBackstage12 from "figma:asset/6e90c6dc5d248d345d1d8f42bac2ce342684e329.png";
-import img5 from "figma:asset/2389a17217303484b24c4dcc3802f597c76c89b1.png";
-import imgGbDavieFl112 from "figma:asset/76fe696200766caa93170aea7cee1446f8d8b665.png";
-import imgLogotiposParaThimony from "figma:asset/810ec06a9fbb4962a4203138cd81e81d9dd6dac3.png";
-import imgLogoFundoEscuro from "figma:asset/e6937e988ebc2b1b541d451a7ce91d5810ecceee.png";
-import imgWhatsAppImage20250819At084437 from "figma:asset/cf8f6db4759ed31b6a195fbf39433d0b9bce1508.png";
-import imgImage1016 from "figma:asset/12c785e5e3f15a9c212ff7639ae63d8ce45a25b5.png";
-import imgFrame14372537491 from "figma:asset/796ec079e6d72d0cae5e326f47d503072c6283ab.png";
-import imgLogo5SHospedagemHorizontal1FundoTransp from "figma:asset/fcb85fbbda487922215b0fe320c97dbbae17fb2a.png";
-import imgAbbaFisioterapiaLogotipo8 from "figma:asset/4db0a7298c3ad28f166f181707a12f6d775b6438.png";
-import imgImage1017 from "figma:asset/d7658163840f4a136507bffcdac50ce1c58e2281.png";
+import imgImg53712 from "@/assets/8fd1e4c441dfea9513380405b80f9c5d129fd5a1.png";
+import imgDonBackstage12 from "@/assets/6e90c6dc5d248d345d1d8f42bac2ce342684e329.png";
+import img5 from "@/assets/2389a17217303484b24c4dcc3802f597c76c89b1.png";
+import imgGbDavieFl112 from "@/assets/76fe696200766caa93170aea7cee1446f8d8b665.png";
+import imgLogotiposParaThimony from "@/assets/810ec06a9fbb4962a4203138cd81e81d9dd6dac3.png";
+import imgLogoFundoEscuro from "@/assets/e6937e988ebc2b1b541d451a7ce91d5810ecceee.png";
+import imgWhatsAppImage20250819At084437 from "@/assets/cf8f6db4759ed31b6a195fbf39433d0b9bce1508.png";
+import imgImage1016 from "@/assets/12c785e5e3f15a9c212ff7639ae63d8ce45a25b5.png";
+import imgFrame14372537491 from "@/assets/796ec079e6d72d0cae5e326f47d503072c6283ab.png";
+import imgLogo5SHospedagemHorizontal1FundoTransp from "@/assets/fcb85fbbda487922215b0fe320c97dbbae17fb2a.png";
+import imgAbbaFisioterapiaLogotipo8 from "@/assets/4db0a7298c3ad28f166f181707a12f6d775b6438.png";
+import imgImage1017 from "@/assets/d7658163840f4a136507bffcdac50ce1c58e2281.png";
 
 function Group2() {
   return (

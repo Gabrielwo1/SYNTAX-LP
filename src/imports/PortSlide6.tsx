@@ -1,15 +1,15 @@
 import svgPaths from "./svg-bg1z0kx0i8";
-import imgLogoFundoEscuro from "figma:asset/e6937e988ebc2b1b541d451a7ce91d5810ecceee.png";
-import imgImg53711 from "figma:asset/8fd1e4c441dfea9513380405b80f9c5d129fd5a1.png";
-import imgDonBackstage11 from "figma:asset/6e90c6dc5d248d345d1d8f42bac2ce342684e329.png";
-import imgGbDavieFl111 from "figma:asset/76fe696200766caa93170aea7cee1446f8d8b665.png";
-import imgWhatsAppImage20250819At084437 from "figma:asset/cf8f6db4759ed31b6a195fbf39433d0b9bce1508.png";
-import imgLogotiposParaThimony from "figma:asset/810ec06a9fbb4962a4203138cd81e81d9dd6dac3.png";
-import img04 from "figma:asset/2389a17217303484b24c4dcc3802f597c76c89b1.png";
-import imgLogo5SHospedagemHorizontal1FundoTransp from "figma:asset/fcb85fbbda487922215b0fe320c97dbbae17fb2a.png";
-import imgImage1015 from "figma:asset/12c785e5e3f15a9c212ff7639ae63d8ce45a25b5.png";
-import imgImage94 from "figma:asset/d7658163840f4a136507bffcdac50ce1c58e2281.png";
-import imgAbbaFisioterapiaLogotipo7 from "figma:asset/4db0a7298c3ad28f166f181707a12f6d775b6438.png";
+import imgLogoFundoEscuro from "@/assets/e6937e988ebc2b1b541d451a7ce91d5810ecceee.png";
+import imgImg53711 from "@/assets/8fd1e4c441dfea9513380405b80f9c5d129fd5a1.png";
+import imgDonBackstage11 from "@/assets/6e90c6dc5d248d345d1d8f42bac2ce342684e329.png";
+import imgGbDavieFl111 from "@/assets/76fe696200766caa93170aea7cee1446f8d8b665.png";
+import imgWhatsAppImage20250819At084437 from "@/assets/cf8f6db4759ed31b6a195fbf39433d0b9bce1508.png";
+import imgLogotiposParaThimony from "@/assets/810ec06a9fbb4962a4203138cd81e81d9dd6dac3.png";
+import img04 from "@/assets/2389a17217303484b24c4dcc3802f597c76c89b1.png";
+import imgLogo5SHospedagemHorizontal1FundoTransp from "@/assets/fcb85fbbda487922215b0fe320c97dbbae17fb2a.png";
+import imgImage1015 from "@/assets/12c785e5e3f15a9c212ff7639ae63d8ce45a25b5.png";
+import imgImage94 from "@/assets/d7658163840f4a136507bffcdac50ce1c58e2281.png";
+import imgAbbaFisioterapiaLogotipo7 from "@/assets/4db0a7298c3ad28f166f181707a12f6d775b6438.png";
 
 function Frame4() {
   return (

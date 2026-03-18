@@ -2,9 +2,9 @@ import { motion, useScroll, useTransform } from 'motion/react';
 import { useRef } from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import xTraderImg from 'figma:asset/f85e4b7f6f500547d77e3d76ea502704dbd9434c.png';
-import maddaImg from 'figma:asset/87da2e86a39dd307303b70285c0ce2f91ee81747.png';
-import carrefourImg from 'figma:asset/30daa40ef1499f1b08d76902c0edc422bd016149.png';
+import xTraderImg from '@/assets/f85e4b7f6f500547d77e3d76ea502704dbd9434c.png';
+import maddaImg from '@/assets/87da2e86a39dd307303b70285c0ce2f91ee81747.png';
+import carrefourImg from '@/assets/30daa40ef1499f1b08d76902c0edc422bd016149.png';
 
 type Project = {
   title: string;

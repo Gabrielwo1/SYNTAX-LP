@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Layout, Zap, FileText, Gauge, TrendingUp, ArrowRight } from 'lucide-react';
-import solutionBg from 'figma:asset/975916bbd1b4ea562897ff70ed77f9e70aece157.png';
+import solutionBg from '@/assets/975916bbd1b4ea562897ff70ed77f9e70aece157.png';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { CtaButton } from './ui/CtaButton';
 

@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import agencyImage from 'figma:asset/5cbc87767447094c25cb569732cb9acba580cd41.png';
+import agencyImage from '@/assets/5cbc87767447094c25cb569732cb9acba580cd41.png';
 
 export function AboutSection() {
   return (

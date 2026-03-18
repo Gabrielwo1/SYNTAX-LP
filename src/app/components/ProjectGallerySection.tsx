@@ -1,9 +1,9 @@
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import imgWordpress from 'figma:asset/577a06b88dfdd8ca663c2b847ebd5252c8255333.png';
-import carrefourImg from 'figma:asset/30daa40ef1499f1b08d76902c0edc422bd016149.png';
-import xTraderImg from 'figma:asset/f85e4b7f6f500547d77e3d76ea502704dbd9434c.png';
-import maddaImg from 'figma:asset/87da2e86a39dd307303b70285c0ce2f91ee81747.png';
+import imgWordpress from '@/assets/577a06b88dfdd8ca663c2b847ebd5252c8255333.png';
+import carrefourImg from '@/assets/30daa40ef1499f1b08d76902c0edc422bd016149.png';
+import xTraderImg from '@/assets/f85e4b7f6f500547d77e3d76ea502704dbd9434c.png';
+import maddaImg from '@/assets/87da2e86a39dd307303b70285c0ce2f91ee81747.png';
 
 const row1 = [
   {
