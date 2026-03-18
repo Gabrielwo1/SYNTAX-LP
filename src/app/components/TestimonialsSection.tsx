@@ -188,7 +188,7 @@ function ExproSecurityLogoAltaWhiteOnTransparent() {
 
 function LogosGrid() {
   return (
-    <div className="content-center flex flex-wrap gap-[40px_92px] items-center justify-center relative size-full [zoom:0.35] sm:[zoom:0.45] md:[zoom:0.6] lg:[zoom:0.75] xl:[zoom:0.9] py-8 mb-20 transition-all duration-300">
+    <div className="content-center flex flex-wrap gap-[40px_92px] items-center justify-center relative size-full [zoom:0.22] sm:[zoom:0.3] md:[zoom:0.4] lg:[zoom:0.5] xl:[zoom:0.6] py-8 mb-20 transition-all duration-300">
       
       {/* Row 1 equivalent */}
       <div className="h-[164px] relative shrink-0 w-[294px]" data-name="IMG_5371 2">
