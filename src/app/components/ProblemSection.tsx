@@ -34,16 +34,21 @@ export function ProblemSection() {
         <div className="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] rounded-full" style={{ background: 'radial-gradient(circle, rgba(17,17,17,0.8) 0%, rgba(17,17,17,0) 70%)' }} />
         <div className="absolute bottom-[-20%] right-[-10%] w-[60vw] h-[60vw] rounded-full" style={{ background: 'radial-gradient(circle, rgba(10,10,10,0.8) 0%, rgba(10,10,10,0) 70%)' }} />
 
-        {/* CSS panning grid – no Motion, GPU-friendly */}
-        <div
-          className="absolute inset-0 opacity-[0.06] animate-pan-grid"
+        {/* CSS panning grid – uses transform instead of background-position for GPU compositing */}
+        <div className="absolute inset-[-64px] overflow-hidden opacity-[0.06]"
           style={{
-            backgroundImage: 'linear-gradient(to right, #ffffff 1px, transparent 1px), linear-gradient(to bottom, #ffffff 1px, transparent 1px)',
-            backgroundSize: '64px 64px',
             WebkitMaskImage: 'radial-gradient(ellipse 80% 80% at 50% 50%, #000 30%, transparent 100%)',
             maskImage: 'radial-gradient(ellipse 80% 80% at 50% 50%, #000 30%, transparent 100%)',
           }}
-        />
+        >
+          <div
+            className="absolute inset-0 animate-pan-grid will-change-transform"
+            style={{
+              backgroundImage: 'linear-gradient(to right, #ffffff 1px, transparent 1px), linear-gradient(to bottom, #ffffff 1px, transparent 1px)',
+              backgroundSize: '64px 64px',
+            }}
+          />
+        </div>
 
         {/* Noise overlay – static */}
         <div className="absolute inset-0 opacity-[0.12] pointer-events-none mix-blend-overlay bg-[url('data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAwIDIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZmlsdGVyIGlkPSJhIj48ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMS41IiBudW1PY3RhdmVzPSIzIiBzdGl0Y2hUaWxlcz0ic3RpdGNoIi8+PC9maWx0ZXI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsdGVyPSJ1cmwoI2EpIi8+PC9zdmc+')] z-0" />
@@ -89,14 +94,14 @@ export function ProblemSection() {
           {problems.map((problem, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 60, rotateX: 12 }}
-              whileInView={{ opacity: 1, y: 0, rotateX: 0 }}
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-10%' }}
-              transition={{ duration: 0.7, delay: index * 0.12, type: 'spring', bounce: 0.25 }}
+              transition={{ duration: 0.6, delay: index * 0.1, ease: 'easeOut' }}
               className="relative transform-gpu"
             >
               <motion.div
-                className="group/card relative overflow-hidden bg-black/60 backdrop-blur-xl border p-8 md:p-12 rounded-sm z-10 cursor-pointer"
+                className="group/card relative overflow-hidden bg-black/80 border p-8 md:p-12 rounded-sm z-10 cursor-pointer"
                 style={{
                   borderColor: 'rgba(103,194,78,0.5)',
                   boxShadow: '0 20px 50px rgba(103,194,78,0.12)',
@@ -144,8 +149,8 @@ export function ProblemSection() {
 
       <style>{`
         @keyframes pan-grid {
-          0%   { background-position: 0px 0px; }
-          100% { background-position: 64px 64px; }
+          0%   { transform: translate(0px, 0px); }
+          100% { transform: translate(64px, 64px); }
         }
         .animate-pan-grid { animation: pan-grid 6s linear infinite; }
 
