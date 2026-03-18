@@ -68,6 +68,7 @@ export function Hero() {
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
+              onClick={() => document.getElementById('projetos')?.scrollIntoView({ behavior: 'smooth' })}
               className="group relative px-6 md:px-8 h-12 md:h-[60px] rounded-full bg-gradient-to-b from-[#2a2a2a] to-[#121212] text-white transition-all duration-500 shadow-[inset_0_2px_10px_rgba(255,255,255,0.1),0_15px_30px_rgba(0,0,0,0.8)] hover:shadow-[inset_0_2px_10px_rgba(255,255,255,0.15),0_20px_40px_rgba(0,0,0,0.9)] border border-white/10 hover:border-[#67c24e]/50 w-full sm:w-auto flex items-center justify-center gap-3 text-sm md:text-[15px] tracking-widest uppercase font-display font-bold backdrop-blur-xl"
             >
               <Play className="w-4 h-4 md:w-5 md:h-5 fill-current transition-transform duration-500 group-hover:scale-110 text-[#67c24e]" />
