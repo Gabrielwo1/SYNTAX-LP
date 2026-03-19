@@ -18,9 +18,9 @@ export function Hero() {
       ref={containerRef}
       className="relative w-full min-h-[100svh] bg-[#020202] overflow-hidden flex flex-col pt-24"
     >
-      <motion.div style={{ y: yParallax }} className="absolute inset-0 z-0 pointer-events-none">
+      <div className="absolute inset-0 z-0 pointer-events-none">
         <RippleBackground />
-      </motion.div>
+      </div>
 
       {/* Bottom Marquee */}
       <div className="absolute bottom-0 left-0 w-full overflow-hidden border-t border-white/5 bg-black/60 backdrop-blur-sm z-20 py-4 md:py-5 pointer-events-none">

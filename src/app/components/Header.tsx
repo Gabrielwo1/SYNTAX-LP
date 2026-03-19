@@ -4,7 +4,7 @@ import { CtaButton } from './ui/CtaButton';
 export function Header() {
   return (
     <header 
-      className="fixed top-0 left-0 w-full z-50 px-6 py-4 flex justify-between items-center bg-[#020202]/80 backdrop-blur-lg border-b border-white/5 animate-fade-in-down"
+      className="fixed top-0 left-0 w-full z-50 px-6 py-4 flex justify-between items-center bg-[#020202]/95 border-b border-white/5 animate-fade-in-down"
     >
       <div className="flex items-center justify-center">
         {/* Removido o fundo branco que estava ocultando o texto branco da logo */}

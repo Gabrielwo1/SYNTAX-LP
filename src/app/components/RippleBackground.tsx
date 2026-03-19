@@ -7,7 +7,7 @@ export function RippleBackground() {
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none z-0 bg-[#020202]">
       {/* Container positioned to the bottom right - Increased opacity to make it stand out more */}
-      <div className="absolute bottom-0 right-0 w-[200vw] h-[200vw] md:w-[150vw] md:h-[150vw] translate-x-[30%] translate-y-[30%] mix-blend-screen opacity-90">
+      <div className="absolute bottom-0 right-0 w-[200vw] h-[200vw] md:w-[150vw] md:h-[150vw] translate-x-[30%] translate-y-[30%] opacity-90">
         {rings.map((_, i) => (
           <div
             key={i}
