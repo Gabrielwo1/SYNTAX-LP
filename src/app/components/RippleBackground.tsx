@@ -51,7 +51,7 @@ export function RippleBackground() {
         .animate-ripple {
           /* Very slow, continuous, and linear animation for a calm fluid effect */
           animation: ripple 24.5s linear infinite;
-          will-change: transform, opacity;
+          contain: strict;
         }
       `}</style>
     </div>

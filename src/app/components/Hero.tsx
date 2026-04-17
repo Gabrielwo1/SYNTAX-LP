@@ -1,36 +1,26 @@
-import { motion, useScroll, useTransform } from 'motion/react';
-import { ArrowRight, Play } from 'lucide-react';
-import { useRef } from 'react';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { motion } from 'motion/react';
+import { Play } from 'lucide-react';
 import { CtaButton } from './ui/CtaButton';
 import { RippleBackground } from './RippleBackground';
 
 export function Hero() {
-  const containerRef = useRef<HTMLDivElement>(null);
-
-  // Scroll for marquee only
-  const { scrollY } = useScroll();
-  const bottomMarqueeX = useTransform(scrollY, [0, 1000], ['0%', '-20%']);
-  const yParallax = useTransform(scrollY, [0, 800], ['0%', '15%']);
-
   return (
     <section
-      ref={containerRef}
       className="relative w-full min-h-[100svh] bg-[#020202] overflow-hidden flex flex-col pt-24"
     >
       <div className="absolute inset-0 z-0 pointer-events-none">
         <RippleBackground />
       </div>
 
-      {/* Bottom Marquee */}
-      <div className="absolute bottom-0 left-0 w-full overflow-hidden border-t border-white/5 bg-black/60 backdrop-blur-sm z-20 py-4 md:py-5 pointer-events-none">
-        <motion.div style={{ x: bottomMarqueeX }} className="flex items-center justify-center h-full will-change-transform">
+      {/* Bottom Marquee – pure CSS, sem scroll listeners */}
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden border-t border-white/5 bg-black/60 z-20 py-4 md:py-5 pointer-events-none">
+        <div className="flex items-center justify-center h-full">
           <div className="flex whitespace-nowrap text-white/30 font-mono text-xs tracking-[0.2em] uppercase items-center animate-marquee-fast">
             {Array(10).fill(['SITES', 'LANDING PAGE', 'E-COMMERCE', 'UX/UI']).flat().map((text, i) => (
               <span key={i} className="mx-4">{text} <span className="text-[#67c24e]/50 ml-8">•</span></span>
             ))}
           </div>
-        </motion.div>
+        </div>
       </div>
 
       <div className="relative flex-1 flex flex-col justify-between p-6 md:p-12 z-10 pointer-events-none pb-32 md:pb-32">
@@ -69,7 +59,7 @@ export function Hero() {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               onClick={() => document.getElementById('projetos')?.scrollIntoView({ behavior: 'smooth' })}
-              className="group relative px-6 md:px-8 h-12 md:h-[60px] rounded-full bg-gradient-to-b from-[#2a2a2a] to-[#121212] text-white transition-all duration-500 shadow-[inset_0_2px_10px_rgba(255,255,255,0.1),0_15px_30px_rgba(0,0,0,0.8)] hover:shadow-[inset_0_2px_10px_rgba(255,255,255,0.15),0_20px_40px_rgba(0,0,0,0.9)] border border-white/10 hover:border-[#67c24e]/50 w-full sm:w-auto flex items-center justify-center gap-3 text-sm md:text-[15px] tracking-widest uppercase font-display font-bold backdrop-blur-xl"
+              className="group relative px-6 md:px-8 h-12 md:h-[60px] rounded-full bg-gradient-to-b from-[#2a2a2a] to-[#121212] text-white transition-all duration-500 shadow-[inset_0_2px_10px_rgba(255,255,255,0.1),0_15px_30px_rgba(0,0,0,0.8)] hover:shadow-[inset_0_2px_10px_rgba(255,255,255,0.15),0_20px_40px_rgba(0,0,0,0.9)] border border-white/10 hover:border-[#67c24e]/50 w-full sm:w-auto flex items-center justify-center gap-3 text-sm md:text-[15px] tracking-widest uppercase font-display font-bold"
             >
               <Play className="w-4 h-4 md:w-5 md:h-5 fill-current transition-transform duration-500 group-hover:scale-110 text-[#67c24e]" />
               Ver projetos
@@ -77,8 +67,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-
-      {/* Since we removed the orb animation, we can clear this unused style block or keep only what's necessary */}
     </section>
   );
 }
